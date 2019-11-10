@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="container"
+    >
+      <p
+        class="question"
+      >
+        What are the first 5 digits of Pi?
+      </p>
+      <div
+        class="btn btn-primary show-answer"
+      >
+        Show Answer
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <p
+        class="question"
+      >
+        Should Alex be given this job?
+      </p>
+      <div
+        class="btn btn-primary show-answer"
+      >
+        Show Answer
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <p
+        class="question"
+      >
+        Who holds the world record for the mens 100m?
+      </p>
+      <div
+        class="btn btn-primary show-answer"
+      >
+        Show Answer
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

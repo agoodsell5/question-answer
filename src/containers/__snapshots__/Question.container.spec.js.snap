@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Question container after accept is clicked should display the answer with correct class 1`] = `
+<p
+  class="answer"
+>
+  3.1415
+</p>
+`;
+
+exports[`The Question container after show answer is clicked should have notification with accept button 1`] = `
+<div
+  class="btn btn-primary"
+>
+  Yes Please
+</div>
+`;
+
+exports[`The Question container after show answer is clicked should have notification with decline button 1`] = `
+<div
+  class="btn btn-danger"
+>
+  Not Yet
+</div>
+`;
+
+exports[`The Question container after show answer is clicked should show the notification 1`] = `
+<p>
+  Reveal the answer?
+</p>
+`;
+
+exports[`The Question container the initial state renders the question 1`] = `
+<p
+  class="question"
+>
+  What are the first 5 digits of Pi?
+</p>
+`;
+
+exports[`The Question container the initial state renders the show answer button enabled 1`] = `
+<div
+  class="btn btn-primary show-answer"
+>
+  Show Answer
+</div>
+`;

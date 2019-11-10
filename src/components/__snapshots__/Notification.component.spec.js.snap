@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Notificiation component should render correctly with basic expected props 1`] = `
+<DocumentFragment>
+  <div
+    class="alert alert-success"
+  >
+    <p>
+      Just a basic message
+    </p>
+    <div
+      class="btn btn-primary"
+    >
+      Yes
+    </div>
+    <div
+      class="btn btn-danger"
+    >
+      No
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`The Notificiation component should render the message passed in 1`] = `Promise {}`;
+
+exports[`The Notificiation component the accept button should render the accept button if acceptText is defined 1`] = `
+<div
+  class="btn btn-primary"
+>
+  Yes
+</div>
+`;
+
+exports[`The Notificiation component the decline button should render the accept button if acceptText is defined 1`] = `
+<div
+  class="btn btn-danger"
+>
+  No
+</div>
+`;
